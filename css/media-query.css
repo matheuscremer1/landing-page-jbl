@@ -1,0 +1,203 @@
+@charset "UTF-8"
+*
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #img1{
+        background-image: url(../imagens/phone-pp.png);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+        box-shadow: inset 0px -200px 100px rgb(0, 0, 0);
+        height: 600px;
+    }
+    h1{
+        font-size: 2.3em;
+    }
+    div#info{
+        margin-top: 200px;
+        width: 300px;
+        margin-left: 20px;
+    }
+    p{
+        font-size: 1.5em;
+        width: 300px;
+    }
+    div#rede-social{
+        top: 280px;
+    }
+    .social{
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+    }
+    div#info1{
+        padding-top: 200px;
+    }
+    div#info2{
+        margin-top: 120px;
+    }
+    div#info1 > h2{
+        width: 300px;
+        font-size: 1.6em;
+        margin-left: 20px;
+    }
+    div#info1 > p{
+        margin-left: 20px;
+        width: 80%;
+        font-size: 1.3em;
+    }
+    div#info2 > h2{
+        font-size: 1.6em;
+        margin-left: 20px;
+    }
+    div#info2 > p{
+        margin-left: 20px;
+        width: 85%;
+        font-size: 1.3em;
+    }
+    div#img {
+        background-image: url(../imagens/1.png);
+        background-position: left;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+    div#img2{
+        background-position: right,top;
+        background-image: url(../imagens/2.png);
+    }
+    section{
+        height: 900px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    #img1{
+        background-image: url(../imagens/phone-p.png);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+        box-shadow: inset 0px -200px 100px rgb(0, 0, 0);
+    }
+    div#rede-social{
+        top: 130px;
+    }
+    .social{
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+    }
+    h1{
+        font-size: 2em;
+    }
+    div#info{
+        margin-top: 230px;
+        width: 400px;
+    }
+    p{
+        width: 400px;
+    }
+    section{
+        height: 1000px;
+    }
+    div#img {
+        background-image: url(../imagens/1.png);
+        background-position: left;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+    div#info1{
+        padding-top: 220px;
+    }
+    div#info2{
+        padding-top: 220px;
+    }
+    div#img2{
+        background-image: url(../imagens/2.png);
+        background-position: right;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+    div#info1 > h2{
+        width: 300px;
+        font-size: 1.8em;
+    }
+    div#info1 > p{
+        margin-left: 50px;
+        width: 80%;
+        font-size: 1.3em;
+    }
+    div#info2 > h2{
+        margin-left: 50px;
+        font-size: 1.8em;
+    }
+    div#info2 > p{
+        margin-left: 50px;
+        width: 70%;
+        font-size: 1.3em;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #img1{
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+        box-shadow: inset 0px -300px 100px rgb(0, 0, 0);
+    }
+    div#rede-social{
+        top: 130px;
+    }
+    .social{
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+    }
+    section{
+        height: 1000px;
+    }
+    div#info{
+        margin-top: 180px;
+        width: 400px;
+    }
+    h1{
+        font-size: 3em;
+    }
+    div#info1{
+        padding-left: 300px;
+    }
+    div#info2{
+       left: 50px;
+    }
+    div#info1 > h2{
+        font-size: 2em;
+        padding-top: 10px;
+    }
+    div#info1 > p{
+        margin-left: 50px;
+        width: 80%;
+        font-size: 1.6em;
+    }
+    div#info2 > h2{
+        font-size: 2em;
+        padding-right: 100px;
+        margin-right: 110px;
+    }
+    div#info2 > p{
+        margin-top: 0px;
+        width: 70%;
+        font-size: 1.6em;
+    }
+    div#img {
+        background-image: url(../imagens/1-m.png);
+        background-position: left;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+    div#img2{
+        background-image: url(../imagens/2-m.png);
+        background-position: right;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+}

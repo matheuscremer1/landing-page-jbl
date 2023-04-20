@@ -1,0 +1,186 @@
+@charset "UTF-8"
+*
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+html body{
+    margin: 0px;
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+div#logo{
+    background-image: url(../imagens/logo.png);
+    width: 70px;
+    height: 40px;
+    filter: invert(1);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin-top: -5px;
+    margin-right: 20px;
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white; 
+    width: 130px;
+}
+#img1{
+    background-image: url(../imagens/phone.png);
+    box-shadow: inset 0px -60px 100px black;
+    height: 650px;
+    width: 100%;
+}
+div#info{
+    height: 400px;
+    width: 700px;
+    margin-left: 50px;
+}
+h1{
+    font-size: 5em;
+    color: #fff;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+}
+p{
+    margin-top: 0px;
+    font-size: 2em;
+    width: 500px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+div#btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 80px 80px 80px 80px;
+    cursor: pointer;
+    background-color: orange;
+}
+div#btn:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+div#btn> a > p{
+    font-size: 1.3em;
+    padding-top: 10px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+span{
+    color: white;
+    display: flex;
+    margin-top: 2px;
+}
+div#rede-social{
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    
+}
+.social{
+    height: 32px;
+    width: 32px;
+    filter: invert(1);
+    margin: auto;
+    margin-bottom: 15px;
+    opacity: 70%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+div#face{
+    background-image: url(../imagens/facebook.png);
+    background-repeat: no-repeat;
+}
+div#face:hover,div#gith:hover,div#link:hover{
+    opacity: 90%;
+    padding-right: 5px;
+}   
+div#gith{
+    background-image: url(../imagens/github.png);
+    background-repeat: no-repeat;
+}
+
+div#link{
+    background-image: url(../imagens/linkedin.png); 
+    background-repeat: no-repeat;
+}
+section{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+div#img{
+    background-image: url(../imagens/12.png);
+    width: 100%;
+    height: 400px;
+    box-shadow: inset 0px 10px 30px black;
+}
+div#info1 > h2{
+    font-size: 3em;
+    color: white;
+    margin-left: 50px;
+    margin-top: 0px;
+    padding-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+div#info1 > p{
+    margin-left: 50px;
+    width: 700px;
+}
+div#img2{
+    background-image: url(../imagens/333.png);
+    width: 100%;
+    height: 400px;
+    box-shadow: inset 0px 10px 30px black;
+}
+div#info2{
+    position: absolute;
+    right: 50px;
+}
+div#info2 > h2 {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    margin-top: 0px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+div#info2 > p{
+    width: 700px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+footer > p {
+    padding-top: 10px;
+    width: 100%;
+    font-size: 0.8em;
+    text-align: center;
+    font-family: sans-serif;
+}
