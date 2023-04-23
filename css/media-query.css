@@ -13,6 +13,12 @@
         box-shadow: inset 0px -200px 100px rgb(0, 0, 0);
         height: 600px;
     }
+    li{
+        font-size: 1em;
+    }
+    ul{
+        text-align: end;
+    }
     h1{
         font-size: 2.3em;
     }
@@ -25,7 +31,7 @@
         font-size: 1.5em;
         width: 300px;
     }
-    div#rede-social{
+    div.rede-social{
         top: 280px;
     }
     .social{
@@ -33,43 +39,81 @@
         height: 24px;
         background-size: contain;
     }
-    div#info1{
-        padding-top: 200px;
-    }
-    div#info2{
-        margin-top: 120px;
-    }
     div#info1 > h2{
-        width: 300px;
-        font-size: 1.6em;
-        margin-left: 20px;
+        text-align: center;
+        font-size: 1.3em;
     }
     div#info1 > p{
-        margin-left: 20px;
-        width: 80%;
-        font-size: 1.3em;
+        width: 90%;
+        font-size: 1em;
+        text-align: center;
+        margin: auto;
     }
-    div#info2 > h2{
-        font-size: 1.6em;
-        margin-left: 20px;
+    div#info2 > h2{ 
+        text-align: center;
+        font-size: 1.3em;
     }
     div#info2 > p{
-        margin-left: 20px;
-        width: 85%;
-        font-size: 1.3em;
+        width: 90%;
+        font-size: 1em;
+        text-align: center;
+        margin: auto;
     }
-    div#img {
-        background-image: url(../imagens/1.png);
-        background-position: left;
+    section#imgp{
+        height: 800px;
+        width: 100%;
+        background-color: black;
+        background-size: contain;
+        box-shadow: inset 0px 10px 20px black;
+        background-position: top;
+        
+    }
+    
+    h2.sc{
+        font-size: 2em;
+        padding-top: 150px;
+    }
+    h2.sc2{
+        padding: 0px;
+    }
+    div#info1{
+        position: static;
+        text-align: center;
+        width: 100%;
+
+    }
+    div#btn1{
+        margin: auto;
+        margin-top: 50px;
+    }
+    div#info2{
+        position: static;
+        text-align: center;
+        width: 100%;
+        
+    }
+    section#prod{
         height: 500px;
+    }
+    div#produtos{
+        height: 300px;
+    }
+    div.card{
+        height: 80px;
+        width: 80px;
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
-    div#img2{
-        background-position: right,top;
-        background-image: url(../imagens/2.png);
+    div.card:hover{
+        height: 100px;
+        width: 100px;
     }
-    section{
-        height: 900px;
+    div#produtos{
+        height: 300px;
+    }
+    div.red2{
+        top: 200px;
     }
 }
 @media screen and (min-width: 481px) and (max-width: 768px){
@@ -80,7 +124,7 @@
         background-repeat: no-repeat;
         box-shadow: inset 0px -200px 100px rgb(0, 0, 0);
     }
-    div#rede-social{
+    div.rede-social{
         top: 130px;
     }
     .social{
@@ -98,44 +142,53 @@
     p{
         width: 400px;
     }
-    section{
-        height: 1000px;
+    section#imgp{
+        height: 1100px;
+        background-color: black;
     }
-    div#img {
-        background-image: url(../imagens/1.png);
-        background-position: left;
-        height: 500px;
-        background-repeat: no-repeat;
+    div#btn1{
+        margin: auto;
+        margin-top: 900px;
     }
     div#info1{
-        padding-top: 220px;
+        width: 90%;
+        left: 50px;
+        top: 500px;
+        text-align: left;
     }
     div#info2{
-        padding-top: 220px;
-    }
-    div#img2{
-        background-image: url(../imagens/2.png);
-        background-position: right;
-        height: 500px;
-        background-repeat: no-repeat;
+        width: 90%;
+        left: 50px;
+        bottom: 100px;
+        text-align: left;
     }
     div#info1 > h2{
-        width: 300px;
         font-size: 1.8em;
     }
     div#info1 > p{
-        margin-left: 50px;
         width: 80%;
         font-size: 1.3em;
     }
     div#info2 > h2{
-        margin-left: 50px;
         font-size: 1.8em;
     }
     div#info2 > p{
-        margin-left: 50px;
         width: 70%;
         font-size: 1.3em;
+    }
+    section#prod{
+        height: 600px;
+    }
+    div#produtos{
+        height: 300px;
+    }
+    div.card{
+        height: 130px;
+        width: 130px;
+    }
+    div.card:hover{
+        height: 150px;
+        width: 150px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -145,7 +198,7 @@
         background-repeat: no-repeat;
         box-shadow: inset 0px -300px 100px rgb(0, 0, 0);
     }
-    div#rede-social{
+    div.rede-social{
         top: 130px;
     }
     .social{
@@ -163,41 +216,54 @@
     h1{
         font-size: 3em;
     }
+    section#imgp{
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
     div#info1{
-        padding-left: 300px;
+        right: -50px;
+        top: 330px;
+        width: 280px;
+        text-align: left;
     }
     div#info2{
-       left: 50px;
+       left: 30px;
+       top: 300px;
+       width: 300px;
+       text-align: left;
     }
     div#info1 > h2{
-        font-size: 2em;
+        font-size: 1.4em;
         padding-top: 10px;
     }
     div#info1 > p{
-        margin-left: 50px;
         width: 80%;
-        font-size: 1.6em;
+        font-size: 1.2em;
     }
     div#info2 > h2{
-        font-size: 2em;
-        padding-right: 100px;
-        margin-right: 110px;
+        font-size: 1.4em;
+
     }
     div#info2 > p{
         margin-top: 0px;
         width: 70%;
-        font-size: 1.6em;
+        font-size: 1.2em;
     }
-    div#img {
-        background-image: url(../imagens/1-m.png);
-        background-position: left;
-        height: 500px;
-        background-repeat: no-repeat;
+    div#btn1{
+        margin: auto;
+        margin-top: 400px;
     }
-    div#img2{
-        background-image: url(../imagens/2-m.png);
-        background-position: right;
-        height: 500px;
-        background-repeat: no-repeat;
+    section#prod{
+        background-position: center;
+    }
+    div.card{
+        height: 200px;
+        width: 200px;
+    }
+    div.card:hover{
+        height: 250px;
+        width: 250px;
     }
 }
